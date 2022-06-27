@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <PizzaComponent name = "Magyaros" price = "20"/>
+        <PizzaComponent pName = "Magyaros" pPrice = "20"/>
       </header>
     </div>
   );
