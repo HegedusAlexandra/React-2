@@ -8,6 +8,10 @@ class Timer extends React.Component {
         this.state = {
             time: 0,
         }
+
+    setInterval(() => {
+        this.increaseTime()
+    },1000)
     }
  
 increaseTime (){
