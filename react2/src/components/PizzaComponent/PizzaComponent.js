@@ -1,5 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+
+// komponens hozzáadása
+
+ import React from 'react';
+
 import styles from './PizzaComponent.module.css';
 
 const PizzaComponent = ({pName,pPrice}) => {
