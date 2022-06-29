@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 class Timer extends React.Component {
     
     constructor(props) {
@@ -33,6 +31,7 @@ class Timer extends React.Component {
             <button onClick={() => {this.increaseTime()}}>
                 Click me
             </button>
+
             </>
         )
     }
