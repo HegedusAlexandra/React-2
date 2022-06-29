@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 class Timer extends React.Component {
     
@@ -23,12 +23,16 @@ class Timer extends React.Component {
         console.log("component created");
     }
 
+    componentWillUnmount () {
+        console.log("el fog tűnni");
+    }
+
     componentDidUpdate () {
         console.log("something changed");
     }
     
     render(){
-        
+    
         return(
             <>
             
