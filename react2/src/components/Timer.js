@@ -12,11 +12,19 @@ class Timer extends React.Component {
         this.increaseTime()
     },1000)
     }
- 
+        
     increaseTime (){
         this.setState({
             time: this.state.time+1
         })
+    }
+
+    componentDidMount () {
+        console.log("component created");
+    }
+
+    componentDidUpdate () {
+        console.log("something changed");
     }
     
     render(){
