@@ -3,6 +3,7 @@ import React from 'react'
 
 
 class Timer extends React.Component {
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -14,14 +15,14 @@ class Timer extends React.Component {
     },1000)
     }
  
-increaseTime (){
-    this.setState({
-        time: this.state.time+1
-    })
-}
+    increaseTime (){
+        this.setState({
+            time: this.state.time+1
+        })
+    }
     
     render(){
-        console.log("Render happened");
+        
         return(
             <>
             
@@ -29,8 +30,9 @@ increaseTime (){
                 {this.state.time}
             </div>
 
-            <button onClick={() => {this.increaseTime()}}>Click me</button>
-
+            <button onClick={() => {this.increaseTime()}}>
+                Click me
+            </button>
             </>
         )
     }
